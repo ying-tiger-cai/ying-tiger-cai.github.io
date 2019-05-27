@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>Git Cheat Sheet</title>
+  <meta name="description" content="库管理">
+  <meta name="author" content="leopardpan">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Git Cheat Sheet">
+  <meta name="twitter:description" content="库管理">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Git Cheat Sheet">
+  <meta property="og:description" content="库管理">
+  
+  <link rel="icon" type="image/png" href="/images/favicon.png" />
+  <link href="/images/favicon.png" rel="shortcut icon" type="image/png">
+  
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="canonical" href="http://localhost:4000/2019/05/git-cheat-sheet/">
+  <link rel="alternate" type="application/rss+xml" title="Make the world better!" href="http://localhost:4000/feed.xml">
+  
+  <meta name="google-site-verification" content="1-1ZlHoRvM0T2FqPbW2S-qLgYXN6rsn52kErlMPd_gw" />
+
+<!-- 站点统计 -->
+  <script 
+  async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+  </script>  
+
+<!-- 百度统计 -->
+  
+
+<!-- google 统计 -->
+  
+
+</head>
+
+
+  <body>
+
+    <span class="mobile btn-mobile-menu">        
+      <div class="nav_container">
+         <nav class="nav-menu-item" style = "float:right">
+            <i class="nav-menu-item">
+              <a href="/#blog" title="" class="blog-button">  blog homepage
+              </a>
+            </i>
+            
+                <i class="nav-menu-item">
+
+                  <a href="/archive" title="archive" class="btn-mobile-menu__icon">
+                      archive
+                  </a>
+                </i>
+            
+                <i class="nav-menu-item">
+
+                  <a href="/tags" title="tags" class="btn-mobile-menu__icon">
+                      tags
+                  </a>
+                </i>
+            
+                <i class="nav-menu-item">
+
+                  <a href="/about" title="projects" class="btn-mobile-menu__icon">
+                      projects
+                  </a>
+                </i>
+            
+          </nav>
+      </div>
+    </span>
+    
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url('/images/background-cover.jpg')">
+  <div class="panel-main">
+
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+        <!-- 头像效果-start -->
+        <div class="ih-item circle effect right_to_left">            
+            <a href="/#blog" title="go to homepage" class="blog-button">
+                <div class="img"><img src="/images/avatar.png" alt="img"></div>
+                <div class="info">
+                    <div class="info-back">
+                        <h2> 
+                            
+                                Tech works!
+                            
+                        </h2>
+                        <p>
+                           
+                                ying-tiger-cai
+                            
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- 头像效果-end -->
+        <h1 class="panel-cover__title panel-title"><a href="/#blog" title="link to homepage for Make the world better!" class="blog-button">Make the world better!</a></h1>
+        
+        <span class="panel-cover__subtitle panel-subtitle">Make lives better!</span>
+        
+        <hr class="panel-cover__divider" />
+        <p class="panel-cover__description">ying-tiger-cai blog</p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+        
+        
+        
+
+        <div class="navigation-wrapper">
+          <div>
+            <nav class="cover-navigation cover-navigation--primary">
+              <ul class="navigation">
+                <li class="navigation__item"><a href="/#blog" title="" class="blog-button">blog homepage</a></li>
+                
+                  <li class="navigation__item"><a href="/archive" title="archive">archive</a></li>
+                
+                  <li class="navigation__item"><a href="/tags" title="tags">tags</a></li>
+                
+                  <li class="navigation__item"><a href="/about" title="projects">projects</a></li>
+                
+              </ul>
+            </nav>
+          </div>          
+        </div>
+
+
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="panel-cover--overlay cover-clear"></div>
+    
+  </div>
+</header>
+
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            <article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title">Git Cheat Sheet</h1>
+    <div class="post-meta">
+      <img src="/images/calendar.png" width="20px"/> 
+      <time datetime="2019-05-19 00:00:00 -0500" itemprop="datePublished" class="post-meta__date date">2019-05-19</time>  
+       
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	<span id="busuanzi_container_page_pv"> | 阅读：<span id="busuanzi_value_page_pv"></span>次</span>
+    <span id="busuanzi_container_site_pv">|本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人</span>
+
+ 
+      <!--<span id="busuanzi_container_page_pv"> | 阅读：<span id="busuanzi_value_page_pv"></span>次</span>!-->
+    </p>
+    </div>
+	
+	
+  </header>
+
+  <section class="post">
+    <h2 id="库管理">库管理</h2>
+
+<h3 id="克隆库">克隆库</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git clone https://github.com/php/php-src.git
+git clone --depth<span class="o">=</span>1 https://github.com/php/php-src.git <span class="c"># 只抓取最近的一次 commit</span>
+</code></pre>
+</div>
+
+<h2 id="历史管理">历史管理</h2>
+
+<h3 id="查看历史">查看历史</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git log --pretty<span class="o">=</span>oneline filename <span class="c"># 一行显示</span>
+git show xxxx <span class="c"># 查看某次修改</span>
+</code></pre>
+</div>
+
+<h3 id="标签功能">标签功能</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git tag <span class="c"># 显示所有标签</span>
+git tag -l <span class="s1">'v1.4.2.*'</span> <span class="c"># 显示 1.4.2 开头标签</span>
+git tag v1.3 <span class="c"># 简单打标签</span>
+git tag -a v1.2 9fceb02 <span class="c"># 后期加注标签</span>
+git tag -a v1.4 -m <span class="s1">'my version 1.4'</span> <span class="c"># 增加标签并注释， -a 为 annotated 缩写</span>
+git show v1.4 <span class="c"># 看某一标签详情</span>
+git push origin v1.5 <span class="c"># 分享某个标签</span>
+git push origin --tags <span class="c"># 分享所有标签</span>
+</code></pre>
+</div>
+
+<h3 id="回滚操作">回滚操作</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git reset 9fceb02 <span class="c"># 保留修改</span>
+git reset 9fceb02 --hard <span class="c"># 删除之后的修改</span>
+</code></pre>
+</div>
+
+<h3 id="取消文件的修改">取消文件的修改</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git checkout -- a.php <span class="c">#  取消单个文件</span>
+git checkout -- <span class="c"># 取消所有文件的修改</span>
+</code></pre>
+</div>
+
+<h3 id="删除文件">删除文件</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git rm a.php  <span class="c"># 直接删除文件</span>
+git rm --cached a.php <span class="c"># 删除文件暂存状态</span>
+</code></pre>
+</div>
+
+<h3 id="移动文件">移动文件</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git mv a.php ./test/a.php
+</code></pre>
+</div>
+
+<h3 id="查看文件修改">查看文件修改</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git diff          <span class="c"># 查看未暂存的文件更新</span>
+git diff --cached <span class="c"># 查看已暂存文件的更新</span>
+</code></pre>
+</div>
+
+<h3 id="暂存和恢复当前staging">暂存和恢复当前staging</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git stash <span class="c"># 暂存当前分支的修改</span>
+git stash apply <span class="c"># 恢复最近一次暂存</span>
+git stash list <span class="c"># 查看暂存内容</span>
+git stash apply stash@<span class="o">{</span>2<span class="o">}</span> <span class="c"># 指定恢复某次暂存内容</span>
+git stash drop stash@<span class="o">{</span>0<span class="o">}</span> <span class="c"># 删除某次暂存内容</span>
+</code></pre>
+</div>
+
+<h3 id="修改-commit-历史纪录">修改 commit 历史纪录</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git rebase -i 0580eab8
+</code></pre>
+</div>
+
+<h2 id="分支管理">分支管理</h2>
+
+<h3 id="创建分支">创建分支</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git branch develop <span class="c"># 只创建分支</span>
+git checkout -b master develop <span class="c"># 创建并切换到 develop 分支</span>
+</code></pre>
+</div>
+
+<h3 id="合并分支">合并分支</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git checkout master <span class="c"># 切换到 master 分支</span>
+git merge --no-ff develop <span class="c"># 把 develop 合并到 master 分支，no-ff 选项的作用是保留原分支记录</span>
+git rebase develop <span class="c"># rebase 当前分支到 develop</span>
+git branch -d develop <span class="c"># 删除 develop 分支</span>
+git rebase origin master <span class="c"># 和远程 master 分支 rebase</span>
+</code></pre>
+</div>
+
+<h3 id="克隆远程分支">克隆远程分支</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git branch -r <span class="c"># 显示所有分支，包含远程分支</span>
+git checkout origin/android
+</code></pre>
+</div>
+
+<h3 id="修复develop上的合并错误">修复develop上的合并错误</h3>
+
+<ol>
+  <li>将merge前的commit创建一个分之，保留merge后代码</li>
+  <li>将develop <code class="highlighter-rouge">reset --force</code>到merge前，然后<code class="highlighter-rouge">push --force</code></li>
+  <li>在分支中rebase develop</li>
+  <li>将分支push到服务器上重新merge</li>
+</ol>
+
+<h3 id="强制更新到远程分支最新版本">强制更新到远程分支最新版本</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git reset --hard origin/master
+git submodule update --remote -f
+</code></pre>
+</div>
+
+<h3 id="删除已经-merge-的分支">删除已经 merge 的分支</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git branch --merged | egrep -v <span class="s2">"(^</span><span class="se">\*</span><span class="s2">|master|dev)"</span> | xargs git branch -d
+</code></pre>
+</div>
+
+<h2 id="submodule使用">Submodule使用</h2>
+
+<h3 id="克隆带submodule的库">克隆带submodule的库</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git clone --recursive https://github.com/chaconinc/MainProject
+</code></pre>
+</div>
+
+<h3 id="clone主库后再去clone-submodule">clone主库后再去clone submodule</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git clone https://github.com/chaconinc/MainProject
+git submodule init
+git submodule update
+</code></pre>
+</div>
+
+<h3 id="设置git终端颜色">设置git终端颜色</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git config --global color.diff auto
+git config --global color.status auto
+git config --global color.branch auto
+</code></pre>
+</div>
+
+<h3 id="check-configuration">Check configuration</h3>
+<div class="highlighter-rouge"><pre class="highlight"><code>git config --list
+git config --global  --list
+git config --local   --list
+</code></pre>
+</div>
+
+<h2 id="set-configuration">Set configuration</h2>
+
+<p>Git的全局设置在<code class="highlighter-rouge">~/.gitconfig</code>中，单独设置在<code class="highlighter-rouge">project/.git/config</code>下。</p>
+
+<p>忽略设置全局在<code class="highlighter-rouge">~/.gitignore_global</code>中，单独设置在<code class="highlighter-rouge">project/.gitignore</code>下。</p>
+
+<h3 id="设置-commit-的用户和邮箱">设置 commit 的用户和邮箱</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git config user.name <span class="s2">"xx"</span>
+git config user.email <span class="s2">"xx@xx.com"</span>
+</code></pre>
+</div>
+
+<p>或者直接修改config文件</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="o">[</span>user]
+    name <span class="o">=</span> xxx
+    email <span class="o">=</span> xxx@xxx.com
+</code></pre>
+</div>
+
+
+
+  </section>
+  <div id="gitmentContainer"></div> 
+  <!--<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+  <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>-->
+  <!--修复评论功能-->
+  <link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+  <script src="https://jjeejj.github.io/js/gitment.js"></script>
+  <script>
+        var gitment = new Gitment({
+      owner: 'ying-tiger-cai',
+      repo: 'ying-tiger-cai.github.io',
+      oauth: {
+          client_id: 'b22ce25d5ce7a64c75f8',
+          client_secret: 'b436673061d29934d3182c95da22382154260731',
+      },
+    });
+      gitment.render('gitmentContainer');
+  </script>
+  </article>
+
+<section>
+       <ul class="pager">
+        
+        
+        <li class="next">
+            <a href="/2019/05/template/" data-toggle="tooltip" data-placement="top" title="Template">下一篇：  <span>Template</span>
+            </a>
+        </li>
+        
+    </ul>
+</section>
+
+
+            <section class="footer">
+    <footer>
+        <div class = "footer_div">  
+        <nav class="cover-navigation navigation--social">
+          <ul class="navigation">
+
+          
+
+          
+          <!-- Github -->
+          <li class="navigation__item_social">
+            <a href="https://github.com/ying-tiger-cai" title="@ying-tiger-cai 的 Github" target="_blank">
+              <i class='social fa fa-github fa-2x'></i>
+              <span class="label">Github</span>
+            </a>
+          </li>
+          
+          
+          
+          <!-- Twitter -->
+          <li class="navigation__item_social">
+            <a href="http://twitter.com/cai_tiger" title="@cai_tiger" target="_blank">
+              <i class='social fa fa-twitter fa-2x'></i>
+              <span class="label">Twitter</span>
+            </a>
+          </li>
+          
+
+          
+
+          <!-- RSS -->
+          <li class="navigation__item_social">
+            <a href="/feed.xml" rel="author" title="RSS" target="_blank">
+              <i class='social fa fa-rss fa-2x'></i>
+              <span class="label">RSS</span>
+            </a>
+          </li>
+
+          
+          <!-- Email -->
+          <li class="navigation__item_social">
+            <a href="mailto:ying123@gmail.com" title="Contact me">
+              <i class='social fa fa-envelope fa-2x'></i>
+              <span class="label">Email</span>
+            </a>
+          </li>
+          
+
+          </ul>
+        </nav>
+
+        </div>
+
+        <div class = "footer_div">  
+           <p class="copyright text-muted">
+            Copyright &copy; Make the world better! 2019 Theme by <a href="http://ying-tiger-cai.github.io/">ying-tiger-cai</a> |
+            <iframe
+                style="margin-left: 2px; margin-bottom:-5px;"
+                frameborder="0" scrolling="0" width="91px" height="20px"
+                src="https://ghbtns.com/github-btn.html?user=ying-tiger-cai&repo=ying-tiger-cai.github.io&type=star&count=true" >
+            </iframe>
+            </p>
+        	<div align="right">
+    			<!--<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">-->
+
+          <!-- 访问统计 -->
+          <!--<span id="busuanzi_container_site_pv">
+            本站总访问量
+            <span id="busuanzi_value_site_pv"></span>次
+          </span>-->
+          
+        </div>
+        <div>
+    </footer>
+</section>
+
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+<script type="text/javascript" src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+    
+  </body>
+
+</html>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Make the world better!</title>
+    <description>ying-tiger-cai blog</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 26 May 2019 22:25:15 -0500</pubDate>
+    <lastBuildDate>Sun, 26 May 2019 22:25:15 -0500</lastBuildDate>
+    <generator>Jekyll v3.4.2</generator>
+    
+      <item>
+        <title>Template</title>
+        <description>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;### Level 3: Template
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;level-3-template&quot;&gt;Level 3: Template&lt;/h3&gt;
+&lt;p&gt;Last modified: 2019-05-23 21:51&lt;/p&gt;
+
+&lt;h4 id=&quot;level-4-images&quot;&gt;Level 4: Images&lt;/h4&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Lenna](/assets/img/Lenna.png)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/Lenna.png&quot; alt=&quot;Lenna&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;img src=&quot;/assets/img/Lenna.png&quot; alt=&quot;Lenna&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/Lenna.png&quot; alt=&quot;Lenna&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;center&amp;gt;&amp;lt;img src=&quot;/assets/img/Lenna.png&quot; alt=&quot;Lenna&quot; height=&quot;300&quot;&amp;gt;&amp;lt;/center&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/img/Lenna.png&quot; alt=&quot;Lenna&quot; height=&quot;300&quot; /&gt;&lt;/center&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Blog of ying-tiger-cai](http://ying-tiger-cai.github.io)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;http://ying-tiger-cai.github.io&quot;&gt;Blog of ying-tiger-cai&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Other post](/2019/05/19/git-cheat-sheet.html)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;/2019/05/19/git-cheat-sheet.html&quot;&gt;Other post&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##### Level 5: Math Equations
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h5 id=&quot;level-5-math-equations&quot;&gt;Level 5: Math Equations&lt;/h5&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is \$\$i={\sqrt[{n}]{\left({\frac {FV}{PV}}\right)}}-1\$\$ and $$i={\sqrt[{n}]{\left({\frac {FV}{PV}}\right)}}-1$$.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;This is $$i={\sqrt[{n}]{\left({\frac {FV}{PV}}\right)}}-1$$ and &lt;script type=&quot;math/tex&quot;&gt;i={\sqrt[{n}]{\left({\frac {FV}{PV}}\right)}}-1&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Same equation:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\\[
+i={\sqrt[{n}]{\left({\frac {FV}{PV}}\right)}}-1
+\\]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;\[
+i={\sqrt[{n}]{\left({\frac {FV}{PV}}\right)}}-1
+\]&lt;/p&gt;
+
+&lt;p&gt;This is another example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$$
+\begin{align*}
+  &amp;amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  &amp;amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) &amp;amp; \cdots &amp;amp; \phi(e_1, e_n) \\
+      \vdots &amp;amp; \ddots &amp;amp; \vdots \\
+      \phi(e_n, e_1) &amp;amp; \cdots &amp;amp; \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*}
+$$
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
+      \vdots &amp; \ddots &amp; \vdots \\
+      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Try linline like this:
+$$
+x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+$$
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Try inline like this:
+&lt;script type=&quot;math/tex&quot;&gt;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}&lt;/script&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;再测试一下行内公式$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$，也可以正常显示，搞定。  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;再测试一下行内公式&lt;script type=&quot;math/tex&quot;&gt;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}&lt;/script&gt;，也可以正常显示，搞定。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;br&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&amp;lt;figure class=&quot;highlight&quot;&amp;gt;&amp;lt;pre&amp;gt;&amp;lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&amp;gt;&amp;lt;span class=&quot;k&quot;&amp;gt;def&amp;lt;/span&amp;gt; &amp;lt;span class=&quot;nf&quot;&amp;gt;print_hi&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;p&quot;&amp;gt;(&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;nb&quot;&amp;gt;name&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;p&quot;&amp;gt;)&amp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;nb&quot;&amp;gt;puts&amp;lt;/span&amp;gt; &amp;lt;span class=&quot;s2&quot;&amp;gt;&quot;Hi, &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;si&quot;&amp;gt;#{&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;nb&quot;&amp;gt;name&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;si&quot;&amp;gt;}&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;s2&quot;&amp;gt;&quot;&amp;lt;/span&amp;gt;
+&amp;lt;span class=&quot;k&quot;&amp;gt;end&amp;lt;/span&amp;gt;
+&amp;lt;span class=&quot;n&quot;&amp;gt;print_hi&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;p&quot;&amp;gt;(&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;s1&quot;&amp;gt;'Tom'&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;p&quot;&amp;gt;)&amp;lt;/span&amp;gt;
+&amp;lt;span class=&quot;c1&quot;&amp;gt;#=&amp;amp;gt; prints 'Hi, Tom' to STDOUT.&amp;lt;/span&amp;gt;&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/figure&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;level-3-references-and-hyper-links&quot;&gt;Level 3: References and hyper links&lt;/h3&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 19 May 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2019/05/template/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/05/template/</guid>
+        
+        <category>markdown</category>
+        
+        
+        <category>Others</category>
+        
+      </item>
+    
+      <item>
+        <title>Git Cheat Sheet</title>
+        <description>&lt;h2 id=&quot;库管理&quot;&gt;库管理&lt;/h2&gt;
+
+&lt;h3 id=&quot;克隆库&quot;&gt;克隆库&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/php/php-src.git
+git clone --depth&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1 https://github.com/php/php-src.git &lt;span class=&quot;c&quot;&gt;# 只抓取最近的一次 commit&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;历史管理&quot;&gt;历史管理&lt;/h2&gt;
+
+&lt;h3 id=&quot;查看历史&quot;&gt;查看历史&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git log --pretty&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;oneline filename &lt;span class=&quot;c&quot;&gt;# 一行显示&lt;/span&gt;
+git show xxxx &lt;span class=&quot;c&quot;&gt;# 查看某次修改&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;标签功能&quot;&gt;标签功能&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git tag &lt;span class=&quot;c&quot;&gt;# 显示所有标签&lt;/span&gt;
+git tag -l &lt;span class=&quot;s1&quot;&gt;'v1.4.2.*'&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# 显示 1.4.2 开头标签&lt;/span&gt;
+git tag v1.3 &lt;span class=&quot;c&quot;&gt;# 简单打标签&lt;/span&gt;
+git tag -a v1.2 9fceb02 &lt;span class=&quot;c&quot;&gt;# 后期加注标签&lt;/span&gt;
+git tag -a v1.4 -m &lt;span class=&quot;s1&quot;&gt;'my version 1.4'&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# 增加标签并注释， -a 为 annotated 缩写&lt;/span&gt;
+git show v1.4 &lt;span class=&quot;c&quot;&gt;# 看某一标签详情&lt;/span&gt;
+git push origin v1.5 &lt;span class=&quot;c&quot;&gt;# 分享某个标签&lt;/span&gt;
+git push origin --tags &lt;span class=&quot;c&quot;&gt;# 分享所有标签&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;回滚操作&quot;&gt;回滚操作&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git reset 9fceb02 &lt;span class=&quot;c&quot;&gt;# 保留修改&lt;/span&gt;
+git reset 9fceb02 --hard &lt;span class=&quot;c&quot;&gt;# 删除之后的修改&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;取消文件的修改&quot;&gt;取消文件的修改&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout -- a.php &lt;span class=&quot;c&quot;&gt;#  取消单个文件&lt;/span&gt;
+git checkout -- &lt;span class=&quot;c&quot;&gt;# 取消所有文件的修改&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;删除文件&quot;&gt;删除文件&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git rm a.php  &lt;span class=&quot;c&quot;&gt;# 直接删除文件&lt;/span&gt;
+git rm --cached a.php &lt;span class=&quot;c&quot;&gt;# 删除文件暂存状态&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;移动文件&quot;&gt;移动文件&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git mv a.php ./test/a.php
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;查看文件修改&quot;&gt;查看文件修改&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git diff          &lt;span class=&quot;c&quot;&gt;# 查看未暂存的文件更新&lt;/span&gt;
+git diff --cached &lt;span class=&quot;c&quot;&gt;# 查看已暂存文件的更新&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;暂存和恢复当前staging&quot;&gt;暂存和恢复当前staging&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git stash &lt;span class=&quot;c&quot;&gt;# 暂存当前分支的修改&lt;/span&gt;
+git stash apply &lt;span class=&quot;c&quot;&gt;# 恢复最近一次暂存&lt;/span&gt;
+git stash list &lt;span class=&quot;c&quot;&gt;# 查看暂存内容&lt;/span&gt;
+git stash apply stash@&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;2&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# 指定恢复某次暂存内容&lt;/span&gt;
+git stash drop stash@&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;0&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# 删除某次暂存内容&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;修改-commit-历史纪录&quot;&gt;修改 commit 历史纪录&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git rebase -i 0580eab8
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;分支管理&quot;&gt;分支管理&lt;/h2&gt;
+
+&lt;h3 id=&quot;创建分支&quot;&gt;创建分支&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git branch develop &lt;span class=&quot;c&quot;&gt;# 只创建分支&lt;/span&gt;
+git checkout -b master develop &lt;span class=&quot;c&quot;&gt;# 创建并切换到 develop 分支&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;合并分支&quot;&gt;合并分支&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout master &lt;span class=&quot;c&quot;&gt;# 切换到 master 分支&lt;/span&gt;
+git merge --no-ff develop &lt;span class=&quot;c&quot;&gt;# 把 develop 合并到 master 分支，no-ff 选项的作用是保留原分支记录&lt;/span&gt;
+git rebase develop &lt;span class=&quot;c&quot;&gt;# rebase 当前分支到 develop&lt;/span&gt;
+git branch -d develop &lt;span class=&quot;c&quot;&gt;# 删除 develop 分支&lt;/span&gt;
+git rebase origin master &lt;span class=&quot;c&quot;&gt;# 和远程 master 分支 rebase&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;克隆远程分支&quot;&gt;克隆远程分支&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git branch -r &lt;span class=&quot;c&quot;&gt;# 显示所有分支，包含远程分支&lt;/span&gt;
+git checkout origin/android
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;修复develop上的合并错误&quot;&gt;修复develop上的合并错误&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;将merge前的commit创建一个分之，保留merge后代码&lt;/li&gt;
+  &lt;li&gt;将develop &lt;code class=&quot;highlighter-rouge&quot;&gt;reset --force&lt;/code&gt;到merge前，然后&lt;code class=&quot;highlighter-rouge&quot;&gt;push --force&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;在分支中rebase develop&lt;/li&gt;
+  &lt;li&gt;将分支push到服务器上重新merge&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;强制更新到远程分支最新版本&quot;&gt;强制更新到远程分支最新版本&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git reset --hard origin/master
+git submodule update --remote -f
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;删除已经-merge-的分支&quot;&gt;删除已经 merge 的分支&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git branch --merged | egrep -v &lt;span class=&quot;s2&quot;&gt;&quot;(^&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\*&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;|master|dev)&quot;&lt;/span&gt; | xargs git branch -d
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;submodule使用&quot;&gt;Submodule使用&lt;/h2&gt;
+
+&lt;h3 id=&quot;克隆带submodule的库&quot;&gt;克隆带submodule的库&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone --recursive https://github.com/chaconinc/MainProject
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;clone主库后再去clone-submodule&quot;&gt;clone主库后再去clone submodule&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/chaconinc/MainProject
+git submodule init
+git submodule update
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;设置git终端颜色&quot;&gt;设置git终端颜色&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config --global color.diff auto
+git config --global color.status auto
+git config --global color.branch auto
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;check-configuration&quot;&gt;Check configuration&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config --list
+git config --global  --list
+git config --local   --list
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;set-configuration&quot;&gt;Set configuration&lt;/h2&gt;
+
+&lt;p&gt;Git的全局设置在&lt;code class=&quot;highlighter-rouge&quot;&gt;~/.gitconfig&lt;/code&gt;中，单独设置在&lt;code class=&quot;highlighter-rouge&quot;&gt;project/.git/config&lt;/code&gt;下。&lt;/p&gt;
+
+&lt;p&gt;忽略设置全局在&lt;code class=&quot;highlighter-rouge&quot;&gt;~/.gitignore_global&lt;/code&gt;中，单独设置在&lt;code class=&quot;highlighter-rouge&quot;&gt;project/.gitignore&lt;/code&gt;下。&lt;/p&gt;
+
+&lt;h3 id=&quot;设置-commit-的用户和邮箱&quot;&gt;设置 commit 的用户和邮箱&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config user.name &lt;span class=&quot;s2&quot;&gt;&quot;xx&quot;&lt;/span&gt;
+git config user.email &lt;span class=&quot;s2&quot;&gt;&quot;xx@xx.com&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;或者直接修改config文件&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;user]
+    name &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; xxx
+    email &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; xxx@xxx.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Sun, 19 May 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2019/05/git-cheat-sheet/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/05/git-cheat-sheet/</guid>
+        
+        <category>Git</category>
+        
+        
+        <category>Tools</category>
+        
+      </item>
+    
+  </channel>
+</rss>
