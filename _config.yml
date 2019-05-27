@@ -7,8 +7,11 @@ avatarTitle: Tech works!
 avatarDesc: ying-tiger-cai
 
 gitment:
-    id: b22ce25d5ce7a64c75f8
-    secret: b436673061d29934d3182c95da22382154260731
+    enable: true
+    owner: ying-tiger-cai
+    repo: ying-tiger-cai.github.io
+    client_id: b22ce25d5ce7a64c75f8
+    client_secret: b436673061d29934d3182c95da22382154260731
 
 social:
     github: ying-tiger-cai

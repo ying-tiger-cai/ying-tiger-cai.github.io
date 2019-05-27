@@ -34,12 +34,13 @@ layout: default
   <link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
   <script src="https://jjeejj.github.io/js/gitment.js"></script>
   <script>
-        var gitment = new Gitment({
-      owner: 'ying-tiger-cai',
-      repo: 'ying-tiger-cai.github.io',
-      oauth: {
-          client_id: 'b22ce25d5ce7a64c75f8',
-          client_secret: 'b436673061d29934d3182c95da22382154260731',
+      var gitment = new Gitment({
+        id: '<%= page.title %>',
+        owner: 'ying-tiger-cai',
+        repo: 'ying-tiger-cai.github.io',
+        oauth: {
+            client_id: 'b22ce25d5ce7a64c75f8',
+            client_secret: 'b436673061d29934d3182c95da22382154260731',
       },
     });
       gitment.render('gitmentContainer');
