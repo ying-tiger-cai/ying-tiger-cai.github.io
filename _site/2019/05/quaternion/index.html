@@ -6,17 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <title>Template</title>
-  <meta name="description" content="### &lt;center&gt;Level 3: Template&lt;/center&gt;Level 3: TemplateLast modified: 2019-05-23 21:51Level 4: Images![Lenna](/assets/img/Lenna.png)">
+  <title>Introduction of Quaternions</title>
+  <meta name="description" content="Introduction of QuaternionsLast modified: 2019-05-27 21:001 Quaternion definition and propertiesConsider two complex numbers  and , then construct . , where ...">
   <meta name="author" content="leopardpan">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Template">
-  <meta name="twitter:description" content="### &lt;center&gt;Level 3: Template&lt;/center&gt;Level 3: TemplateLast modified: 2019-05-23 21:51Level 4: Images![Lenna](/assets/img/Lenna.png)">
+  <meta name="twitter:title" content="Introduction of Quaternions">
+  <meta name="twitter:description" content="Introduction of QuaternionsLast modified: 2019-05-27 21:001 Quaternion definition and propertiesConsider two complex numbers  and , then construct . , where ...">
   
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Template">
-  <meta property="og:description" content="### &lt;center&gt;Level 3: Template&lt;/center&gt;Level 3: TemplateLast modified: 2019-05-23 21:51Level 4: Images![Lenna](/assets/img/Lenna.png)">
+  <meta property="og:title" content="Introduction of Quaternions">
+  <meta property="og:description" content="Introduction of QuaternionsLast modified: 2019-05-27 21:001 Quaternion definition and propertiesConsider two complex numbers  and , then construct . , where ...">
   
   <link rel="icon" type="image/png" href="/images/favicon.png" />
   <link href="/images/favicon.png" rel="shortcut icon" type="image/png">
@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="/css/main.css">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-  <link rel="canonical" href="http://localhost:4000/2019/05/template/">
+  <link rel="canonical" href="http://localhost:4000/2019/05/quaternion/">
   <link rel="alternate" type="application/rss+xml" title="Make the world better!" href="http://localhost:4000/feed.xml">
   
   <meta name="google-site-verification" content="1-1ZlHoRvM0T2FqPbW2S-qLgYXN6rsn52kErlMPd_gw" />
@@ -148,10 +148,10 @@
         <div class="content-wrapper__inner">
             <article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
-    <h1 class="post-title">Template</h1>
+    <h1 class="post-title">Introduction of Quaternions</h1>
     <div class="post-meta">
       <img src="/images/calendar.png" width="20px"/> 
-      <time datetime="2019-05-19 00:00:00 -0500" itemprop="datePublished" class="post-meta__date date">2019-05-19</time>  
+      <time datetime="2019-05-27 00:00:00 -0500" itemprop="datePublished" class="post-meta__date date">2019-05-27</time>  
        
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 	  <span id="busuanzi_container_page_pv"> | Visited<span id="busuanzi_value_page_pv"></span></span>
@@ -164,12 +164,20 @@
   </header>
 
   <section class="post">
-    <div class="highlighter-rouge"><pre class="highlight"><code>### &lt;center&gt;Level 3: Template&lt;/center&gt;
-</code></pre>
-</div>
-<h3 id="level-3-template"><center>Level 3: Template</center></h3>
-<p>Last modified: 2019-05-23 21:51<br />
+    <h3 id="introduction-of-quaternions"><center>Introduction of Quaternions</center></h3>
+<p>Last modified: 2019-05-27 21:00
 <br /></p>
+<h3 id="1-quaternion-definition-and-properties">1 Quaternion definition and properties</h3>
+<p>Consider two complex numbers <script type="math/tex">A=a+bi</script> and <script type="math/tex">C=c+di</script>, then construct <script type="math/tex">Q=A+Cj</script>. <script type="math/tex">Q=a+bi+cj+dij=a+bi+cj+dk \in \mathbb{H}</script>, where <script type="math/tex">k\triangleq ij</script>, and <script type="math/tex">\mathbb{H}</script> is the space of <strong>quaternions</strong>.<br />
+<script type="math/tex">\left\{ a,b,c,d \right\} \in \mathbb{R}</script>, and <script type="math/tex">\left\{ i, j, k \right\}</script> are three imaginary unit numbers defined so that:
+$$i^{2}=j^{2}=k^{2}=ijk=-1$$  <br />
+Hence, we can derive:</p>
+<center>$$ij=-ji=k$$ $$jk=-kj=i$$ $$ki=-ik=j$$</center>
+<p>Note that real, imaginary, and complex numbers are indeed quaternions. <script type="math/tex">Q=a \in \mathbb{R} \subset \mathbb{H}</script>, <script type="math/tex">Q=bi \in \mathbb{I} \subset \mathbb{H}</script>, <script type="math/tex">Q=a+bi \in \mathbb{Z} \subset \mathbb{H}</script>.<br />
+Like the pure imaginary numbers in complex numbers, <strong>pure quaternions</strong> are defined as a subspace of <script type="math/tex">\mathbb{H}</script>, and may note <script type="math/tex">\mathbb{H}_{p}=Im(\mathbb{H})</script>.</p>
+<center>$$Q=bi+cj+dk \in \mathbb{H}_{p} \subset \mathbb{H}$$.</center>
+
+<p><br /></p>
 <h4 id="level-4-images">Level 4: Images</h4>
 <div class="highlighter-rouge"><pre class="highlight"><code>![Lenna](/assets/img/Lenna.png)
 </code></pre>
@@ -194,7 +202,7 @@
 <div class="highlighter-rouge"><pre class="highlight"><code>[Other post](/2019/05/19/git-cheat-sheet.html)
 </code></pre>
 </div>
-<p><a href="/2019/05/19/git-cheat-sheet/index.html">Other post</a></p>
+<p><a href="/2019/05/19/git-cheat-sheet.html">Other post</a></p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>##### Level 5: Math Equations
 </code></pre>
@@ -315,15 +323,10 @@ Jekyll also offers powerful support for code snippets:</p>
        <ul class="pager">
         
         <li class="previous">
-            <a href="/2019/05/git-cheat-sheet/" data-toggle="tooltip" data-placement="top" title="Git Cheat Sheet">Previous:  <span>Git Cheat Sheet</span>
+            <a href="/2019/05/template/" data-toggle="tooltip" data-placement="top" title="Template">Previous:  <span>Template</span>
             </a>
         </li>
         
-        
-        <li class="next">
-            <a href="/2019/05/quaternion/" data-toggle="tooltip" data-placement="top" title="Introduction of Quaternions">Next:  <span>Introduction of Quaternions</span>
-            </a>
-        </li>
         
     </ul>
 </section>

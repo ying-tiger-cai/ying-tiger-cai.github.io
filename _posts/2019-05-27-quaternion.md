@@ -1,16 +1,25 @@
 ---
 layout: post
-title:  Template
-categories: Others
-tags: markdown
-keywords: markdown,
-description: template for the post and markdown
+title:  Introduction of Quaternions
+categories: VIO
+tags: quaternion
+keywords: quaternion,
+description: fundamentals of quaternion number system
 ---
-```
-### <center>Level 3: Template</center>
-```
-### <center>Level 3: Template</center>  
-Last modified: 2019-05-23 21:51  
+
+### <center>Introduction of Quaternions</center>  
+Last modified: 2019-05-27 21:00
+<br>
+### 1 Quaternion definition and properties
+Consider two complex numbers $$A=a+bi$$ and $$C=c+di$$, then construct $$Q=A+Cj$$. $$Q=a+bi+cj+dij=a+bi+cj+dk \in \mathbb{H}$$, where $$k\triangleq ij$$, and $$\mathbb{H}$$ is the space of __quaternions__.  
+$$\left\{ a,b,c,d \right\} \in \mathbb{R}$$, and $$\left\{ i, j, k \right\}$$ are three imaginary unit numbers defined so that:
+\$\$i^{2}=j^{2}=k^{2}=ijk=-1\$\$    
+Hence, we can derive: 
+<center>$$ij=-ji=k$$ $$jk=-kj=i$$ $$ki=-ik=j$$</center>  
+Note that real, imaginary, and complex numbers are indeed quaternions. $$Q=a \in \mathbb{R} \subset \mathbb{H}$$, $$Q=bi \in \mathbb{I} \subset \mathbb{H}$$, $$Q=a+bi \in \mathbb{Z} \subset \mathbb{H}$$.  
+Like the pure imaginary numbers in complex numbers, __pure quaternions__ are defined as a subspace of $$\mathbb{H}$$, and may note $$\mathbb{H}_{p}=Im(\mathbb{H})$$.  
+<center>$$Q=bi+cj+dk \in \mathbb{H}_{p} \subset \mathbb{H}$$.</center>
+
 <br>
 #### Level 4: Images  
 ```
@@ -36,7 +45,7 @@ Last modified: 2019-05-23 21:51
 ```
 [Other post](/2019/05/19/git-cheat-sheet.html)
 ```
-[Other post](/2019/05/19/git-cheat-sheet/index.html)
+[Other post](/2019/05/19/git-cheat-sheet.html)
 
 ```
 ##### Level 5: Math Equations

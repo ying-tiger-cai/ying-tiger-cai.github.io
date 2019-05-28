@@ -5,18 +5,26 @@
     <description>ying-tiger-cai blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 May 2019 08:07:24 -0500</pubDate>
-    <lastBuildDate>Mon, 27 May 2019 08:07:24 -0500</lastBuildDate>
+    <pubDate>Mon, 27 May 2019 23:01:20 -0500</pubDate>
+    <lastBuildDate>Mon, 27 May 2019 23:01:20 -0500</lastBuildDate>
     <generator>Jekyll v3.4.2</generator>
     
       <item>
-        <title>Template</title>
-        <description>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;### Level 3: Template
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;h3 id=&quot;level-3-template&quot;&gt;Level 3: Template&lt;/h3&gt;
-&lt;p&gt;Last modified: 2019-05-23 21:51&lt;/p&gt;
+        <title>Introduction of Quaternions</title>
+        <description>&lt;h3 id=&quot;introduction-of-quaternions&quot;&gt;&lt;center&gt;Introduction of Quaternions&lt;/center&gt;&lt;/h3&gt;
+&lt;p&gt;Last modified: 2019-05-27 21:00
+&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;1-quaternion-definition-and-properties&quot;&gt;1 Quaternion definition and properties&lt;/h3&gt;
+&lt;p&gt;Consider two complex numbers &lt;script type=&quot;math/tex&quot;&gt;A=a+bi&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;C=c+di&lt;/script&gt;, then construct &lt;script type=&quot;math/tex&quot;&gt;Q=A+Cj&lt;/script&gt;. &lt;script type=&quot;math/tex&quot;&gt;Q=a+bi+cj+dij=a+bi+cj+dk \in \mathbb{H}&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;k\triangleq ij&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;\mathbb{H}&lt;/script&gt; is the space of &lt;strong&gt;quaternions&lt;/strong&gt;.&lt;br /&gt;
+&lt;script type=&quot;math/tex&quot;&gt;\left\{ a,b,c,d \right\} \in \mathbb{R}&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;\left\{ i, j, k \right\}&lt;/script&gt; are three imaginary unit numbers defined so that:
+$$i^{2}=j^{2}=k^{2}=ijk=-1$$  &lt;br /&gt;
+Hence, we can derive:&lt;/p&gt;
+&lt;center&gt;$$ij=-ji=k$$ $$jk=-kj=i$$ $$ki=-ik=j$$&lt;/center&gt;
+&lt;p&gt;Note that real, imaginary, and complex numbers are indeed quaternions. &lt;script type=&quot;math/tex&quot;&gt;Q=a \in \mathbb{R} \subset \mathbb{H}&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;Q=bi \in \mathbb{I} \subset \mathbb{H}&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;Q=a+bi \in \mathbb{Z} \subset \mathbb{H}&lt;/script&gt;.&lt;br /&gt;
+Like the pure imaginary numbers in complex numbers, &lt;strong&gt;pure quaternions&lt;/strong&gt; are defined as a subspace of &lt;script type=&quot;math/tex&quot;&gt;\mathbb{H}&lt;/script&gt;, and may note &lt;script type=&quot;math/tex&quot;&gt;\mathbb{H}_{p}=Im(\mathbb{H})&lt;/script&gt;.&lt;/p&gt;
+&lt;center&gt;$$Q=bi+cj+dk \in \mathbb{H}_{p} \subset \mathbb{H}$$.&lt;/center&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h4 id=&quot;level-4-images&quot;&gt;Level 4: Images&lt;/h4&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Lenna](/assets/img/Lenna.png)
 &lt;/code&gt;&lt;/pre&gt;
@@ -42,6 +50,144 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;a href=&quot;/2019/05/19/git-cheat-sheet.html&quot;&gt;Other post&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##### Level 5: Math Equations
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h5 id=&quot;level-5-math-equations&quot;&gt;Level 5: Math Equations&lt;/h5&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is \$\$i={\sqrt[{n}]{\left({\frac {FV}{PV}}\right)}}-1\$\$ and $$i={\sqrt[{n}]{\left({\frac {FV}{PV}}\right)}}-1$$.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;This is $$i={\sqrt[{n}]{\left({\frac {FV}{PV}}\right)}}-1$$ and &lt;script type=&quot;math/tex&quot;&gt;i={\sqrt[{n}]{\left({\frac {FV}{PV}}\right)}}-1&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Same equation:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\\[
+i={\sqrt[{n}]{\left({\frac {FV}{PV}}\right)}}-1
+\\]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;\[
+i={\sqrt[{n}]{\left({\frac {FV}{PV}}\right)}}-1
+\]&lt;/p&gt;
+
+&lt;p&gt;This is another example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$$
+\begin{align*}
+  &amp;amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  &amp;amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) &amp;amp; \cdots &amp;amp; \phi(e_1, e_n) \\
+      \vdots &amp;amp; \ddots &amp;amp; \vdots \\
+      \phi(e_n, e_1) &amp;amp; \cdots &amp;amp; \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*}
+$$
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
+      \vdots &amp; \ddots &amp; \vdots \\
+      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Try linline like this:
+$$
+x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+$$
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Try inline like this:
+&lt;script type=&quot;math/tex&quot;&gt;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}&lt;/script&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;再测试一下行内公式$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$，也可以正常显示，搞定。  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;再测试一下行内公式&lt;script type=&quot;math/tex&quot;&gt;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}&lt;/script&gt;，也可以正常显示，搞定。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;br&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&amp;lt;figure class=&quot;highlight&quot;&amp;gt;&amp;lt;pre&amp;gt;&amp;lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&amp;gt;&amp;lt;span class=&quot;k&quot;&amp;gt;def&amp;lt;/span&amp;gt; &amp;lt;span class=&quot;nf&quot;&amp;gt;print_hi&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;p&quot;&amp;gt;(&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;nb&quot;&amp;gt;name&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;p&quot;&amp;gt;)&amp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;nb&quot;&amp;gt;puts&amp;lt;/span&amp;gt; &amp;lt;span class=&quot;s2&quot;&amp;gt;&quot;Hi, &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;si&quot;&amp;gt;#{&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;nb&quot;&amp;gt;name&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;si&quot;&amp;gt;}&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;s2&quot;&amp;gt;&quot;&amp;lt;/span&amp;gt;
+&amp;lt;span class=&quot;k&quot;&amp;gt;end&amp;lt;/span&amp;gt;
+&amp;lt;span class=&quot;n&quot;&amp;gt;print_hi&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;p&quot;&amp;gt;(&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;s1&quot;&amp;gt;'Tom'&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;p&quot;&amp;gt;)&amp;lt;/span&amp;gt;
+&amp;lt;span class=&quot;c1&quot;&amp;gt;#=&amp;amp;gt; prints 'Hi, Tom' to STDOUT.&amp;lt;/span&amp;gt;&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/figure&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;level-3-references-and-hyper-links&quot;&gt;Level 3: References and hyper links&lt;/h3&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 27 May 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2019/05/quaternion/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/05/quaternion/</guid>
+        
+        <category>quaternion</category>
+        
+        
+        <category>VIO</category>
+        
+      </item>
+    
+      <item>
+        <title>Template</title>
+        <description>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;### &amp;lt;center&amp;gt;Level 3: Template&amp;lt;/center&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;level-3-template&quot;&gt;&lt;center&gt;Level 3: Template&lt;/center&gt;&lt;/h3&gt;
+&lt;p&gt;Last modified: 2019-05-23 21:51&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;level-4-images&quot;&gt;Level 4: Images&lt;/h4&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Lenna](/assets/img/Lenna.png)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/Lenna.png&quot; alt=&quot;Lenna&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;img src=&quot;/assets/img/Lenna.png&quot; alt=&quot;Lenna&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/Lenna.png&quot; alt=&quot;Lenna&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;center&amp;gt;&amp;lt;img src=&quot;/assets/img/Lenna.png&quot; alt=&quot;Lenna&quot; height=&quot;300&quot;&amp;gt;&amp;lt;/center&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/img/Lenna.png&quot; alt=&quot;Lenna&quot; height=&quot;300&quot; /&gt;&lt;/center&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Blog of ying-tiger-cai](http://ying-tiger-cai.github.io)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;http://ying-tiger-cai.github.io&quot;&gt;Blog of ying-tiger-cai&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Other post](/2019/05/19/git-cheat-sheet.html)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;/2019/05/19/git-cheat-sheet/index.html&quot;&gt;Other post&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##### Level 5: Math Equations
 &lt;/code&gt;&lt;/pre&gt;
